@@ -8,7 +8,7 @@ body {
 
 #title {
   position: absolute;
-  top: calc(10% + 3vw);
+  top: calc(8.5% + 3vw);
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: calc(40px + 2.5vw);
@@ -18,7 +18,7 @@ body {
 
 .content {
   position: absolute;
-  top: 62.5%;
+  top: 58.5%;
   left: 50%;
   transform: translate(-50%, -50%);
   flex-direction: column;
@@ -58,6 +58,7 @@ body {
   border-radius: 50px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .content #container #toggle #tog {
   position: relative;
@@ -67,6 +68,5 @@ body {
   background-color: #fff;
   border: #505050 solid 3px;
   border-radius: 50px;
-  cursor: pointer;
   transition: all 0.35s;
 }/*# sourceMappingURL=style.css.map */
